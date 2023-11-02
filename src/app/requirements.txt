@@ -1,0 +1,5 @@
+Flask==2.2.0
+Flask-SQLAlchemy==3.0.3
+flask-restx==1.2.0
+validate-docbr==1.10.0
+mysqlclient==2.2.0

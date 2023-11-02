@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Recebido"
+    },
+    {
+        "name": "Em preparação"
+    },
+    {
+        "name": "Pronto"
+    },
+    {
+        "name": "Finalizado"
+    }
+]

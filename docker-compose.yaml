@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      FLASK_APP: main.py
+      FLASK_DEBUG: "true"
+      SQLALCHEMY_DATABASE_URI: mysql://root:burgerqueensenha@db:3306/burgerqueen
+
+  db:
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: burgerqueensenha
+      MYSQL_DATABASE: burgerqueen
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 2s
+      retries: 3
