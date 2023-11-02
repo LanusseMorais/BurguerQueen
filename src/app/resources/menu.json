@@ -1,0 +1,123 @@
+{
+    "menu_items": [
+        {
+            "name": "Hamburguer Clássico",
+            "description": "Um delicioso hamburguer clássico com queijo, alface e tomate.",
+            "category_id": 2,
+            "ingredients": "Hamburguer, queijo, alface, tomate",
+            "extras": "Bacon, cebola caramelizada",
+            "price": 10.99
+        },
+        {
+            "name": "Hamburguer Vegetariano",
+            "description": "Um hamburguer vegetariano com alface, tomate e maionese vegana.",
+            "category_id": 2,
+            "ingredients": "Hamburguer de soja, alface, tomate, maionese vegana",
+            "extras": "Queijo vegano, cebola grelhada",
+            "price": 9.99
+        },
+        {
+            "name": "Refrigerante de Cola",
+            "description": "Refrigerante de Cola.",
+            "category_id": 1,
+            "ingredients": "Refrigerante de Cola",
+            "price": 2.49
+        },
+        {
+            "name": "Sorvete de Baunilha",
+            "description": "Um sorvete cremoso de baunilha.",
+            "category_id": 4,
+            "ingredients": "Sorvete de Baunilha",
+            "extras": "Calda de chocolate, chantilly",
+            "price": 4.99
+        },
+        {
+            "name": "Batata Frita",
+            "description": "Batatas fritas crocantes com sal.",
+            "category_id": 3,
+            "ingredients": "Batata Frita",
+            "extras": "Queijo, Bacon",
+            "price": 3.49
+        },
+        {
+            "name": "Hamburguer de Frango",
+            "description": "Um hamburguer de frango grelhado com alface e maionese.",
+            "category_id": 2,
+            "ingredients": "Peito de frango, alface, maionese",
+            "extras": "Queijo, picles",
+            "price": 8.99
+        },
+        {
+            "name": "Coca-Cola",
+            "description": "Uma lata de refrigerante Coca-Cola gelada.",
+            "category_id": 1,
+            "ingredients": "Coca-Cola",
+            "extras": "Limão, Gelo",
+            "price": 1.99
+        },
+        {
+            "name": "Sundae de Chocolate",
+            "description": "Uma sobremesa deliciosa com sorvete de baunilha, calda de chocolate e chantilly.",
+            "category_id": 4,
+            "ingredients": "Sorvete de baunilha, calda de chocolate, chantilly",
+            "extras": "Calda de chocolate, chantilly",
+            "price": 5.49
+        },
+        {
+            "name": "Onion Rings",
+            "description": "Anéis de cebola empanados e fritos.",
+            "category_id": 3,
+            "ingredients": "Cebolas empanada",
+            "extras": "",
+            "price": 4.99
+        },
+        {
+            "name": "Hamburguer Picante",
+            "description": "Um hamburguer picante com jalapeños e molho apimentado.",
+            "category_id": 2,
+            "ingredients": "Hamburguer, jalapeños, molho picante",
+            "extras": "Queijo, pimentão grelhado",
+            "price": 11.49
+        },
+        {
+            "name": "Suco de Laranja",
+            "description": "Um suco de laranja fresco e natural.",
+            "category_id": 1,
+            "ingredients": "Laranja",
+            "extras": "Gelo",
+            "price": 3.99
+        },
+        {
+            "name": "Brownie de Chocolate",
+            "description": "Um brownie de chocolate quente com sorvete de baunilha.",
+            "category_id": 4,
+            "ingredients": "Chocolate, açúcar, farinha",
+            "extras": "Sorvete de baunilha, calda de caramelo",
+            "price": 6.99
+        },
+        {
+            "name": "Milkshake de Morango",
+            "description": "Um milkshake cremoso de morango.",
+            "category_id": 1,
+            "ingredients": "Sorvete de Morango, leite",
+            "extras": "calda de caramelo",
+            "price": 4.49
+        },
+        {
+            "name": "Aipim Frito",
+            "description": "Batatas aipim fritas com tempero especial.",
+            "category_id": 3,
+            "ingredients": "Aipim",
+            "extras": "",
+            "price": 4.29
+        },
+        {
+            "name": "Hamburguer de Peixe",
+            "description": "Um hamburguer de peixe empanado com alface e molho tártaro.",
+            "category_id": 2,
+            "ingredients": "Peixe, alface, molho tártaro",
+            "extras": "Queijo, cebola roxa",
+            "price": 9.99
+        }
+    ]
+}

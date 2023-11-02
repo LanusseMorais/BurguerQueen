@@ -1,0 +1,14 @@
+[
+    {
+        "cpf": "296.788.580-02",
+        "name": "Maria Silva",
+        "email": "maria@gmail.com",
+        "registration_date": "2022-01-15"
+    },
+    {
+        "cpf": "934.478.150-86",
+        "name": "João Santos",
+        "email": "joao@yahoo.com",
+        "registration_date": "2022-01-20"
+    }
+]
